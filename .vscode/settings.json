@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "javascript.validate.enable": false,
+  "javascript.format.enable": false,
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "extensions": [".html", ".js", ".ts", ".vue"]
+  },
+
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+
+  "html.format.enable": false,
+  "vetur.validation.style": false,
+  "vetur.validation.template": false,
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatter.css": "none",
+  "vetur.format.defaultFormatter.scss": "none",
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatter.ts": "none"
+}

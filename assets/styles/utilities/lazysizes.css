@@ -1,0 +1,8 @@
+.lazyload,
+.lazyloading {
+  @apply opacity-0;
+}
+
+.lazyloaded {
+  @apply opacity-100 transition-opacity duration-500;
+}

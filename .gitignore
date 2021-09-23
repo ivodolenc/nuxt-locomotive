@@ -1,0 +1,31 @@
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+package-lock.json
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Dotenv
+.env
+
+# Nuxt build output
+.nuxt
+
+# Nuxt generate
+dist
+
+# Service worker
+static/sw.*
+public/sw.*
