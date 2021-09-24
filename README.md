@@ -1,8 +1,9 @@
 <p align="center">
-    <img src=".github/assets/cover.jpg">
+    <img src=".github/assets/cover.gif">
 </p>
 <h1 align="center">Nuxt + Locomotive Scroll</h1>
 <p align="center">Starter template for parallax effects & smooth scrolling experience. Empower your Nuxt project in no time.</p>
+<p align="center">See it in action → <a href="https://nuxt-locomotive.netlify.app">LIVE DEMO</a></p>
 
 <br>
 

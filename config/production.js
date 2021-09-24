@@ -5,7 +5,7 @@ export default {
   },
 
   app: {
-    baseUrl: 'https://website.com',
-    url: 'https://www.website.com'
+    baseUrl: 'https://nuxt-locomotive.netlify.app',
+    url: 'https://nuxt-locomotive.netlify.app'
   }
 }
