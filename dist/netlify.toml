@@ -1,0 +1,31 @@
+[[headers]]
+for = "/*"
+
+  [headers.values]
+  Referrer-Policy = "origin"
+  X-Content-Type-Options = "nosniff"
+  X-Frame-Options = "DENY"
+  X-XSS-Protection = "1; mode=block"
+
+[[headers]]
+for = "/_nuxt/*"
+
+  [headers.values]
+  Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/sw.js"
+
+  [headers.values]
+  Cache-Control = "no-cache"
+
+[[headers]]
+for = "/favicon.ico"
+
+  [headers.values]
+  Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+from = "https://nuxt-locomotive.netlify.app/*"
+to = "https://nuxt-locomotive.netlify.app/:splat"
+status = 301

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://nuxt-locomotive.netlify.app/sitemap.xml

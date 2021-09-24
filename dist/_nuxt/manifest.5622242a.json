@@ -1,0 +1,30 @@
+{
+  "name": "Nuxt + Locomotive",
+  "short_name": "Nuxt Locomotive",
+  "description": "Starter template for parallax effects & smooth scrolling experience",
+  "icons": [
+    {
+      "src": "/_nuxt/icons/icon_64x64.d205f9.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_192x192.d205f9.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_512x512.d205f9.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#030303",
+  "theme_color": "#030303",
+  "lang": "en-US"
+}
