@@ -24,7 +24,7 @@ package-lock.json
 .nuxt
 
 # Nuxt generate
-dist
+# dist
 
 # Service worker
 static/sw.*
