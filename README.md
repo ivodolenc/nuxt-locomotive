@@ -13,7 +13,7 @@ Boilerplate provides many pre-configured modules such as
 
 - [Locomotive Scroll](https://github.com/locomotivemtl/locomotive-scroll) → A smooth-scroll library with powerfull built-in solutions
 - [GSAP](https://github.com/ivodolenc/nuxt-gsap-module) → Professional-grade animation for the modern web
-- [Windi CSS](https://github.com/windicss/nuxt-windicss-module) → Next generation utility-first CSS framework
+- [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) → A utility-first CSS framework for rapid UI development
 - [LazySizes](https://github.com/ivodolenc/nuxt-lazysizes) → High performance and SEO friendly lazy loader for images
 - [PWA module](https://github.com/nuxt-community/pwa-module) → Zero config PWA solution for Nuxt.js
 - [Font Loader](https://github.com/ivodolenc/nuxt-font-loader) → Simple, modern and lightweight font loader for Nuxt projects
