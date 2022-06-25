@@ -23,24 +23,19 @@ export default {
     host: config.server.hostname
   },
 
-  watch: ['~/config/*'],
+  watch: ['~/config/*', '~/tailwind.config.js'],
 
   modules: ['@nuxtjs/pwa', '@nuxtjs/svg', '@nuxtjs/robots', '@nuxtjs/sitemap'],
 
   buildModules: [
+    '@nuxt/postcss8',
     '@nuxtjs/netlify-files',
     'nuxt-font-loader',
     'nuxt-gsap-module',
-    'nuxt-lazysizes',
-    'nuxt-windicss'
+    'nuxt-lazysizes'
   ],
 
-  css: [
-    'virtual:windi-base.css',
-    'virtual:windi-components.css',
-    'virtual:windi-utilities.css',
-    '~/assets/styles/app.css'
-  ],
+  css: ['~/assets/styles/main.css'],
 
   plugins: ['~/plugins/locomotiveScroll.client.js'],
 
@@ -117,7 +112,15 @@ export default {
         src: 'templates/app.html',
         dst: 'views/app.template.html'
       }
-    ]
+    ],
+
+    postcss: {
+      plugins: {
+        'postcss-import': true,
+        tailwindcss: {},
+        autoprefixer: {}
+      }
+    }
   },
 
   generate: {
