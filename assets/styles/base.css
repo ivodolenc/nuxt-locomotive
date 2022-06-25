@@ -12,9 +12,22 @@ html.has-scroll-dragging {
 }
 
 [data-scroll-direction='horizontal'] [data-scroll-container] {
-  @apply h-screen inline-block white-space-nowrap;
+  @apply h-screen inline-block whitespace-nowrap;
 }
 
 [data-scroll-direction='horizontal'] [data-scroll-section] {
   @apply inline-block align-top whitespace-nowrap h-full;
+}
+
+html {
+  @apply bg-dark text-white;
+}
+
+.lazyload,
+.lazyloading {
+  @apply opacity-0;
+}
+
+.lazyloaded {
+  @apply opacity-100 transition-opacity duration-500;
 }
